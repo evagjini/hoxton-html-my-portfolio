@@ -1,15 +1,17 @@
 *{
     margin: 0;
     padding: 0%;
-    box-sizing: border-box;
+    box-sizing: border-box
+
 }
 .top{
     background-color: #fc7a60;
     display: grid;
     padding: 1rem;
     height: 100vh;
-    align-content: space-between;
+    grid-template-rows: 200px  auto;
     
+
 }
 .top header{
     background-color:#35382e ;
@@ -35,8 +37,9 @@
     display: grid;
     color: white;
     background-color:#35382e;
-    justify-self: center;
     width: 70vw;
+    text-align: center;
+    justify-self: center;
     gap: 1rem;
     padding: 1rem;
     border-radius: 5px;
@@ -47,4 +50,14 @@
     color:#face00 ;
     text-align: center;
 
+}
+.box-container{
+    justify-content: center;
+    display: grid;
+    height: 10vh;
+    
+
+}
+.main-box a{
+    color: white;
 }
